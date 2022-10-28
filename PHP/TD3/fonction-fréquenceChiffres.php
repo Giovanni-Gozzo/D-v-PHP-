@@ -1,11 +1,11 @@
 <?php
 function fréquenceChiffres(int$n):array{
-	$tab=[0,0,0,0,0,0,0,0,0,0];
+    $tab=[0,0,0,0,0,0,0,0,0,0];
     while($n>=1){
         $x=$n%10;
         $n=$n/10;
         $tab[$x]+=1;
-	}
+    }
     return$tab;
 }
 ///*
