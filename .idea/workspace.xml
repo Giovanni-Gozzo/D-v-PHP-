@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ea2fe00-498c-4976-9cbf-9e02673a5a63" name="Changes" comment="" />
+    <list default="true" id="3ea2fe00-498c-4976-9cbf-9e02673a5a63" name="Changes" comment="Comit 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/src/fonction-moyenne.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/src/fonction-moyenne.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,8 +49,16 @@
       <workItem from="1666950872400" duration="41000" />
       <workItem from="1666950962150" duration="70000" />
       <workItem from="1666951046568" duration="1428000" />
-      <workItem from="1666980737335" duration="801000" />
+      <workItem from="1666980737335" duration="1325000" />
     </task>
+    <task id="LOCAL-00001" summary="Comit 1">
+      <created>1666985167000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666985167000</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Comit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comit 1" />
   </component>
 </project>
