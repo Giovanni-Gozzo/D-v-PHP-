@@ -8,6 +8,6 @@ function saisirTabentiers(int$taille):array{
 }
 ///*
 //Donnée: un entier naturel
-//Résulats: renvoie un entier naturel qui correspond aux nombres de triangles rectangle ayant un périmetre plus
-//          petit que l'entier donnée et ayant des cotés entiers également.
+//Résulats: renvoie un Tableau de longueur donnée en argument et rempli avec les
+//          donnée saisie par l'utilisateur a la suite.
 ///*

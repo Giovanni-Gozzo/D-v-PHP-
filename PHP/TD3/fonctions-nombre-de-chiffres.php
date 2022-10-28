@@ -11,6 +11,12 @@ function nbDeChiffresDe(int$n):int{
 
 	return $i;
 }
+///*
+//Donnée: un entier naturel
+//Résulats: renvoie un entier naturel donnant le nombre de
+//          chiffres présent dans le nombre donnée en argument.
+///*
+
 function nbDeChiffresDuCarréDe(int$n):int{
 	$i=0;
 	$n=$n*$n;
@@ -21,3 +27,9 @@ function nbDeChiffresDuCarréDe(int$n):int{
 
 	return $i;
 }
+
+///*
+//Donnée: un entier naturel
+//Résulats: renvoie un entier naturel donnant le nombre de
+//          chiffres présent dans le nombre donnée en argument au carré.
+///*

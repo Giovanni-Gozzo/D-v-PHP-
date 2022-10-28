@@ -19,3 +19,8 @@ function pyramideSimple(int $nb,string $car):void{
         echo("\n");
     }
 }
+///*
+//Donnée: un entier naturel ainsi qu'un caractère
+//Résulats: renvoie rien mais affiche une pyramide de la taille de l'entier saisie,
+//          la pyramide est construite avec le caractère donné en argument
+///*

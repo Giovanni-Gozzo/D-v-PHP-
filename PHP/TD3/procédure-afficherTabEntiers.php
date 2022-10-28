@@ -11,4 +11,8 @@ function afficherTabentiers(array$t):void{
 	    $x+=1;
 	}
 }
+///*
+//Donnée: un tableau
+//Résulats: renvoie rien mais affiche le tableau en entier.
+///*
 
