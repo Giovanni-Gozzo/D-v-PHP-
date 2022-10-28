@@ -13,3 +13,9 @@ function nombreDeTrianglesRectanglesDePérimètreAuPlus(int $n):int{
 	}
 	return $nb;
 }
+///*
+//Donnée: un entier naturel
+//Résulats: renvoie un entier naturel qui correspond aux nombres de triangles rectangle ayant un périmetre plus
+//          petit que l'entier donnée et ayant des cotés entiers également.
+///*
+

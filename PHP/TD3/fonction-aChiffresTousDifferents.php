@@ -1,17 +1,17 @@
 <?php
 function aChiffresTousDifferents(int$n):bool{
-	$tab=[0,0,0,0,0,0,0,0,0,0];
-	$y=true;
+    $tab=[0,0,0,0,0,0,0,0,0,0];
+    $y=true;
     while($n>=1 and $y=="true"){
-		$x=$n%10;
-		$n=$n-$x;
-		$n=$n/10;
-		$tab[$x]++;
-		if($tab[$x]>1){
-		    $y=false;
-		}
-	}
-	return $y;
+        $x=$n%10;
+        $n=$n-$x;
+        $n=$n/10;
+        $tab[$x]++;
+        if($tab[$x]>1){
+            $y=false;
+        }
+    }
+    return $y;
 }
 ///*
 //Donnée:un entier naturel

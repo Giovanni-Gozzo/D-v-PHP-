@@ -1,7 +1,4 @@
 <?php
-//ma fonction prend comme variable un entier et retourne un tableau
-//il permet de creer un tableau de la taille que l'on souhaite
-
 function saisirTabentiers(int$taille):array{
 	$tab=[];
 	for($i=0;$i<$taille;++$i){
@@ -9,3 +6,8 @@ function saisirTabentiers(int$taille):array{
 	}
 	return $tab;
 }
+///*
+//Donnée: un entier naturel
+//Résulats: renvoie un entier naturel qui correspond aux nombres de triangles rectangle ayant un périmetre plus
+//          petit que l'entier donnée et ayant des cotés entiers également.
+///*
