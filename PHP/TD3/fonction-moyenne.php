@@ -10,6 +10,6 @@ function moyenne(array $t): float{
     return $moy;
 }
 ///*
-//Donnée: un tableau rempli seulement avec des entiers
+//Donnée: un tableau d'entier non vide
 //Résulats: renvoie un entier qui correspond a la moyenne des entiers se trouvant dans le tableau.
 ///*

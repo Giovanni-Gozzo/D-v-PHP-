@@ -13,6 +13,6 @@ function estPalindrome(string $s):bool{
     return $y;
 }
 ///*
-//Donnée:un mot constitué seulement de lettres sans espace ou caractère spéciaux
+//Donnée:une chaine de caractère
 //Résulats:renvoie un boolean qui sera vrai si le mot est un palindrome sinon il renverra faux.
 ///*
