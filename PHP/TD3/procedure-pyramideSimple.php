@@ -1,15 +1,14 @@
 <?php
-function pyramideSimple(int $nb,string $car):void{
+function pyramideSimple(int $a,string $m): void {
     $c=" ";
-    $j=1;
-    $x=$nb-1;
+    $x=$a-1;
     $y=1;
-    for($i=0;$i<$nb;++$i){
+    for($i=0;$i<$a;++$i){
         for($nbv=0;$nbv<$x;++$nbv){
             echo($c);
         }
         for($j=1;$j<=$y;++$j){
-            echo($car);
+            echo($m);
         }
         for($nbv=0;$nbv<$x;++$nbv){
             echo($c);
