@@ -2,7 +2,9 @@
 $b=readline("entrez un nombre");
 $c=("vrai");
 $x=0;
-for($i=0;$i<$b;++$i){
+$i=0;
+while($i<$b){
+	$i++;
 	$a=readline("entrez un nombre");
 	if ($x>$a){
 		$c=("faux");
@@ -11,5 +13,5 @@ for($i=0;$i<$b;++$i){
 		$x=$a;
 	}
 }
-echo("$c");
+echo("$c\n");
 ?>
