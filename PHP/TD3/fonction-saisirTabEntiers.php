@@ -7,7 +7,7 @@ function saisirTabentiers(int$taille):array{
     return $tab;
 }
 ///*
-//Donnée: un entier naturel
+//Donnée: un entier naturel > 0
 //Résulats: renvoie un Tableau de longueur donnée en argument et rempli avec les
 //          donnée saisie par l'utilisateur a la suite.
 ///*
