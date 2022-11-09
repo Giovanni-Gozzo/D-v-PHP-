@@ -1,5 +1,5 @@
 <?php
-function nombreDeTrianglesRectanglesDePérimètreAuPlus(int $n):int{
+function nombreDeTrianglesRectanglesDePérimètreAuPlus(int $n): int{
     $nb=0;
     for($a=1;$a<=($n-2);++$a){
         for($b=$a;$b<=($n-2);++$b){
