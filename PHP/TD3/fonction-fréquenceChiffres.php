@@ -1,5 +1,5 @@
 <?php
-function fréquenceChiffres(int$n):array{
+function fréquenceChiffres(int $n): array{
     $tab=[0,0,0,0,0,0,0,0,0,0];
     while($n>=1){
         $x=$n%10;
