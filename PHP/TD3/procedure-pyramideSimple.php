@@ -1,5 +1,5 @@
 <?php
-function pyramideSimple(int $a,string $m): void {
+function pyramideSimple(int $a, string $m): void {
     $c=" ";
     $x=$a-1;
     $y=1;
