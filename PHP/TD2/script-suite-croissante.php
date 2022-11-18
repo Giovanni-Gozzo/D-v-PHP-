@@ -1,18 +1,19 @@
 <?php
-$b=readline("entrez un nombre");
-$c=("vrai");
+$finDeLaSuiteAtteinte=0;
 $x=0;
+$nb=readline();
 $i=0;
-while($i<$b){
-	$i++;
-	$a=readline("entrez un nombre");
-	if ($x>$a){
-		$c=("faux");
-		$i=$b;
+$suiteCroissante=true;
+while ($suiteCroissante and $i<$nb) {
+	$i+=1;
+	$y=readline();
+	if($y<$x){
+		$suiteCroissante=false;
 	}
-	else{
-		$x=$a;
-	}
+	$x=$y;
 }
-echo("$c\n");
-?>
+if ($suiteCroissante) {
+	echo 'vrai';
+} else {
+	echo 'faux';
+}
