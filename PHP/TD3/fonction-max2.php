@@ -7,7 +7,7 @@ function max2(int$a,$b):int{
         return $b;
     }
 }
-///*
-//Donnée:2 entiers
-//Résulats: renvoie un entier qui correspond au plus grand entier donnée.
-///*
+/*
+*Donnée:2 entiers
+*Résulat: renvoie un entier qui correspond au plus grand entier donnée.
+/*

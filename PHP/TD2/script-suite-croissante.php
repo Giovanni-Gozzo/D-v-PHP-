@@ -8,6 +8,7 @@ while($i<$b){
 	$a=readline("entrez un nombre");
 	if ($x>$a){
 		$c=("faux");
+		$i=$b;
 	}
 	else{
 		$x=$a;
